@@ -56,7 +56,7 @@ def check_data_matches_labels(labels, data, side):
 
 
 def sankey(left, right, leftWeight=None, rightWeight=None, colorDict=None,
-           leftLabels=None, rightLabels=None, aspect=4, rightColor=False,
+           leftLabels=None, rightLabels=None, aspect=20, rightColor=False,
            fontsize=14, figureName=None, closePlot=False):
     '''
     Make Sankey Diagram showing flow from left-->right
